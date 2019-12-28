@@ -1,37 +1,109 @@
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirLTStd-Medium.otf) format("opentype");
+}
 
-.main_1
-{
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column_1 {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
-    
+    flex-wrap: wrap;
+    /* background-color: yellow; */
+    height: 1000px;
+    width: 500px;
 }
 
-.title
-{
-    color:#1f8eed;
-    font-family: Arial, Helvetica, sans-serif;
-}   
-.dummy_title
-{
-    flex-direction: column;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-.dummy_text
-{
-font-size: 15px;
-width: 570px;;
-height: 96px;
-font-family: Avenir;
-flex-direction: column;
-
-}
-.example
-{
-    
+.title {
     color: #1f8eed;
-    flex-direction: column;
-
+    font-family: 'Tiempos - 700';
 }
 
+.dummy_title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dummy_text {
+    font-size: 15px;
+    width: 500px;
+    height: 96px;
+    font-family: 'Avenir';
+    color: #273444;
+    /* background-color: green; */
+}
+
+.example {
+    color: #1f8eed;
+}
+
+a {
+    text-decoration: none;
+    color: #1f8eed;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.card1 {
+    height: 350px;
+    width: 500px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-family: 'Avenir';
+}
+
+.svg {
+    height: 400px;
+    width: 70px;
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.svg_text {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    height: 468px;
+    width: 400px;
+    justify-content: space-around;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.t1 {
+    padding-top: 43px;
+    display: flex;
+    flex-direction: column;
+}
+
+.t2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.t3 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 62px;
+}
+
+.card2 {
+    width: 500px;
+    height: 500px;
+    /* background-color: red; */
+}
